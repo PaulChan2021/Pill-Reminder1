@@ -1,0 +1,76 @@
+//
+//  File.swift
+//  Assignment
+//
+//  Created by Banana on 10/1/2022.
+//
+
+import Foundation
+import UIKit
+
+class Designs {
+    
+    static func styleTextField(_ textfield:UITextField) {
+        
+        // Create the bottom line
+        let bottomLine = CALayer()
+        
+        bottomLine.frame = CGRect(x: 0, y: textfield.frame.height - 2, width: textfield.frame.width, height: 2)
+        
+        bottomLine.backgroundColor = UIColor.init(red: 48/255, green: 173/255, blue: 99/255, alpha: 1).cgColor
+        
+        // Remove border on text field
+        textfield.borderStyle = .none
+        
+        // Add the line to the text field
+        textfield.layer.addSublayer(bottomLine)
+        
+    }
+    
+    static func styleFilledButton(_ button:UIButton) {
+        
+        // Filled rounded corner style
+        button.backgroundColor = UIColor.init(red: 48/255, green: 173/255, blue: 99/255, alpha: 1)
+        button.layer.cornerRadius = 25.0
+        button.tintColor = UIColor.white
+    }
+    
+    static func styleTouchFaceButton(_ button:UIButton) {
+        
+        // Filled rounded corner style
+        button.backgroundColor = UIColor.init(red: 0/255, green: 153/255, blue: 255/255, alpha: 1)
+        button.layer.cornerRadius = 25.0
+        button.tintColor = UIColor.white
+    }
+    static func styleMapButton(_ button:UIButton) {
+        
+        // Filled rounded corner style
+        button.backgroundColor = UIColor.init(red: 141/255, green: 51/255, blue: 255/255, alpha: 1)
+        button.layer.cornerRadius = 25.0
+        button.tintColor = UIColor.white
+    }
+    static func styleHollowButton(_ button:UIButton) {
+        
+        // Hollow rounded corner style
+        button.layer.borderWidth = 2
+        button.layer.borderColor = UIColor.black.cgColor
+        button.layer.cornerRadius = 25.0
+        button.tintColor = UIColor.black
+    }
+    
+    static func styleTakePic(_ button:UIButton) {
+        // Map button style
+        button.layer.cornerRadius = 25.0
+        button.backgroundColor = .systemBlue
+        button.setTitle("Take a Photo", for: .normal)
+        button.setTitleColor(.white, for: .normal)
+
+    }
+
+    static func isPasswordValid(_ password : String) -> Bool {
+        
+        let passwordTest = NSPredicate(format: "SELF MATCHES %@", "^(?=.*[a-z])(?=.*[A-Z])(?=.*\\d)(?=.*[d$@$!%*?&#])[A-Za-z\\dd$@$!%*?&#]{8,}")
+        return passwordTest.evaluate(with: password)
+    }
+
+}
