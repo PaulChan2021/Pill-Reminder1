@@ -16,5 +16,18 @@ struct Constants {
         static let ViewController = "VC"
         static let homeTableViewContoller = "HomeTableVC"
     }
+}
+
+struct Cells {
+    static let medicationInfoCell = "MedicationInfoCell"
     
+}
+
+struct Segues {
+    static let addMeds = "AddMeds"
+    static let editMeds = "EditMeds"
+}
+
+struct UserDefaultsKeys {
+    static let initialLaunch = "InitialLaunch"
 }
