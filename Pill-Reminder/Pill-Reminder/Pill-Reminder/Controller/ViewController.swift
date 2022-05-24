@@ -101,7 +101,8 @@ class ViewController: UIViewController {
                         self.view.window?.makeKeyAndVisible()
                     }
                 }
-            })
+            }
+        )
         } else {
             // Device can't use bio
             if let err = error {
@@ -132,5 +133,6 @@ class ViewController: UIViewController {
         self.present(alert, animated: true, completion: nil)
 
     }
+    
 }
 

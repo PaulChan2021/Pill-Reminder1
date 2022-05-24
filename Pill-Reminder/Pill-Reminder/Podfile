@@ -11,6 +11,8 @@ target 'Pill-Reminder' do
         pod 'Firebase/Auth'
         pod 'Firebase/Firestore'
         pod 'NotificationBannerSwift', '~> 3.0.0'
+        pod 'Kommunicate'
+        pod 'ApiAI'
 
   target 'Pill-ReminderTests' do
     inherit! :search_paths

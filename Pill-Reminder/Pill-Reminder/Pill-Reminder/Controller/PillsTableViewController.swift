@@ -18,20 +18,32 @@ class PillsTableViewController: UITableViewController {
         return formatter
     }()
     
+    
+    // Notification
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        if defaults.bool(forKey: UserDefaultsKeys.initialLaunch) == false {
+            defaults.set(true, forKey: UserDefaultsKeys.initialLaunch)
         }
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        NotificationController.current.notificationRequest { }
+        NotificationController.current.setupTimeNotifications(medicationController: medicationController)
+        NotificationController.current.setupLowDosageNotifications(medicationController: medicationController)
+        tableView.reloadData()
+
+    }
 
     // MARK: - Table view data source
 
     override func numberOfSections(in tableView: UITableView) -> Int {
-        // #warning Incomplete implementation, return the number of sections
+
         return 1
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        // #warning Incomplete implementation, return the number of rows
+
         return medicationController.medications.count
         
     }
@@ -77,7 +89,7 @@ class PillsTableViewController: UITableViewController {
     }
 }
 
-// --- --- --- --- --- --- --- --- --- --- --- --- --- --- ---
+
 // MARK: - MedicationCellDelegate Extension
 extension PillsTableViewController: MedicationCellDelegate {
     func didUpdateMedicationCount(for cell: PillsTableViewCell) {

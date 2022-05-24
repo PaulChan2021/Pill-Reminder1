@@ -16,7 +16,6 @@ class MedicationController {
         return medications.filter( { $0.quantity > 0} )
     }
     
-    /// Computed property to return all medications needing a refill.
     var medicationsNeedFilled: [Medication] {
         return medications.filter( { $0.quantity == 0 } )
     }
@@ -69,7 +68,7 @@ class MedicationController {
         return documentsDirectory.appendingPathComponent("Medications.plist")
     }()
     
-    /// Function to save medication objects to the persistent file storage
+    /// save medication objects
     private func saveToPersistentStore() {
         let encoder = PropertyListEncoder()
         guard let fileURL = persistentFileURL else { return }
@@ -81,7 +80,6 @@ class MedicationController {
         }
     }
     
-    /// Function to load medication objects from persistent storage
     private func loadFromPersistentStore() {
         let decoder = PropertyListDecoder()
         let fileManager = FileManager.default
