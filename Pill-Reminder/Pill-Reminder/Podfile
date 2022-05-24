@@ -13,7 +13,7 @@ target 'Pill-Reminder' do
         pod 'NotificationBannerSwift', '~> 3.0.0'
         pod 'Kommunicate'
         pod 'ApiAI'
-
+	pod 'MessageKit'
   target 'Pill-ReminderTests' do
     inherit! :search_paths
     # Pods for testing

@@ -206,6 +206,16 @@
             </objects>
             <point key="canvasLocation" x="2508.6956521739135" y="730.58035714285711"/>
         </scene>
+        <!--Chatbot View Controller-->
+        <scene sceneID="PhR-ei-Y9s">
+            <objects>
+                <hostingController id="539-L0-Pef" customClass="ChatbotViewController" customModule="Pill_Reminder" customModuleProvider="target" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="lQZ-8l-T5k"/>
+                </hostingController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Rwc-gw-w8E" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4286.9565217391309" y="743.97321428571422"/>
+        </scene>
         <!--Sign Up View Controller-->
         <scene sceneID="NXe-ic-yha">
             <objects>
@@ -215,30 +225,30 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="y55-oi-vcr">
-                                <rect key="frame" x="40" y="84" width="324" height="278"/>
+                                <rect key="frame" x="40" y="84" width="324" height="290.5"/>
                                 <subviews>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="First Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="wcw-2i-wPO">
-                                        <rect key="frame" x="0.0" y="0.0" width="324" height="31.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="324" height="34"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Last Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="RCk-qe-IjD">
-                                        <rect key="frame" x="0.0" y="51.5" width="324" height="31.5"/>
+                                        <rect key="frame" x="0.0" y="54" width="324" height="34"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="uay-3M-bky">
-                                        <rect key="frame" x="0.0" y="103" width="324" height="31.5"/>
+                                        <rect key="frame" x="0.0" y="108" width="324" height="34"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dQY-Ky-ZFZ">
-                                        <rect key="frame" x="0.0" y="154.5" width="324" height="31.5"/>
+                                        <rect key="frame" x="0.0" y="162" width="324" height="34"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oR9-s4-jgU">
-                                        <rect key="frame" x="0.0" y="206" width="324" height="31.5"/>
+                                        <rect key="frame" x="0.0" y="216" width="324" height="34"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="50" id="WCT-Lz-pXZ"/>
                                         </constraints>
@@ -249,7 +259,7 @@
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Failed" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" showsExpansionTextWhenTruncated="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZiY-D6-ls0">
-                                        <rect key="frame" x="0.0" y="257.5" width="324" height="20.5"/>
+                                        <rect key="frame" x="0.0" y="270" width="324" height="20.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" systemColor="systemRedColor"/>
                                         <nil key="highlightedColor"/>
@@ -326,7 +336,7 @@
                                 </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="tcD-5B-rrp">
-                                <rect key="frame" x="40" y="794" width="334" height="62"/>
+                                <rect key="frame" x="40" y="763" width="334" height="93"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z7i-S1-Qdc">
                                         <rect key="frame" x="0.0" y="0.0" width="334" height="31"/>
@@ -342,6 +352,14 @@
                                         <buttonConfiguration key="configuration" style="plain" title="Pill Detection"/>
                                         <connections>
                                             <segue destination="Bn6-Xz-OPj" kind="show" id="0Ss-nE-OVT"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UYF-Q4-txO">
+                                        <rect key="frame" x="0.0" y="62" width="334" height="31"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Healthcare Bot"/>
+                                        <connections>
+                                            <segue destination="fB9-12-4n8" kind="show" id="rwQ-kE-HLQ"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -654,6 +672,25 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LCo-Dr-89c" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3228" y="-1"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Vnp-CL-csx">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="fB9-12-4n8" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" id="2hk-o6-9bz"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="n5M-lx-TBh">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="539-L0-Pef" kind="relationship" relationship="rootViewController" id="vHD-fe-4S6"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0S8-JJ-as5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3376.811594202899" y="743.97321428571422"/>
         </scene>
     </scenes>
     <resources>
