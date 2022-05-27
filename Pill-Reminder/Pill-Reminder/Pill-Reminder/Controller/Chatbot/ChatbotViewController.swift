@@ -2,7 +2,7 @@
 //  ChatbotViewController.swift
 //  Pill-Reminder
 //
-//  Created by mac on 23/5/2022.
+//  Created by mac on 20/5/2022.
 //
 
 import UIKit
@@ -10,12 +10,12 @@ import SwiftUI
 
 struct SecondView: View {
     @State private var messageText = ""
-    @State var messages: [String] = ["Welcome to Chat Bot 2.0!"]
+    @State var messages: [String] = ["This is a Healthcare Bot"]
     
     var body: some View {
         VStack {
             HStack {
-                Text("iBot")
+                Text("HealthcareBot")
                     .font(.largeTitle)
                     .bold()
                 

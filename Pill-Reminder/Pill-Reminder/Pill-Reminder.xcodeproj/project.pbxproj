@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04137B632840A7F600BAD118 /* ForgotViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04137B622840A7F600BAD118 /* ForgotViewController.swift */; };
+		04137B652840AB5300BAD118 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04137B642840AB5300BAD118 /* Service.swift */; };
 		0439BC0E283CB5AC008F4A6C /* ChatbotViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0439BC0D283CB5AC008F4A6C /* ChatbotViewController.swift */; };
 		044EFD25283CDE0D0029E9AA /* ChatTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044EFD24283CDE0D0029E9AA /* ChatTestApp.swift */; };
 		044EFD27283CE0D00029E9AA /* BotResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044EFD26283CE0D00029E9AA /* BotResponse.swift */; };
@@ -28,13 +30,15 @@
 		04A1675A27D8F97F00FE1324 /* Media in Resources */ = {isa = PBXBuildFile; fileRef = 04A1675927D8F97E00FE1324 /* Media */; };
 		04A1675F27D8FA5700FE1324 /* Designs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A1675E27D8FA5700FE1324 /* Designs.swift */; };
 		04A1676127D8FA6300FE1324 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A1676027D8FA6300FE1324 /* Constants.swift */; };
-		04A789DB27DA3E9600E4F237 /* HomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A789DA27DA3E9600E4F237 /* HomeTableViewController.swift */; };
 		04A789E027DA587400E4F237 /* RoundedCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A789DF27DA587400E4F237 /* RoundedCellView.swift */; };
 		04A789E227DA5F3B00E4F237 /* PillsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A789E127DA5F3B00E4F237 /* PillsTableViewController.swift */; };
 		04A789E427DA5F7000E4F237 /* AddPillsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A789E327DA5F7000E4F237 /* AddPillsViewController.swift */; };
 		04A789EB27DA6F0000E4F237 /* PillsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A789EA27DA6F0000E4F237 /* PillsTableViewCell.swift */; };
 		04A789F127DA728C00E4F237 /* Medication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A789F027DA728C00E4F237 /* Medication.swift */; };
 		04A789F327DA765500E4F237 /* MedicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A789F227DA765500E4F237 /* MedicationController.swift */; };
+		04B40504283E4866006E74C0 /* ShapeTypeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B40503283E4866006E74C0 /* ShapeTypeViewController.swift */; };
+		04B40508283E7155006E74C0 /* HealthcareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B40507283E7155006E74C0 /* HealthcareViewController.swift */; };
+		04B4050A283E80DA006E74C0 /* pill-reminder-8251b-7769325db1a4.json in Resources */ = {isa = PBXBuildFile; fileRef = 04B40509283E80DA006E74C0 /* pill-reminder-8251b-7769325db1a4.json */; };
 		04BDF23F2836A18D00038A71 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BDF23E2836A18D00038A71 /* NotificationController.swift */; };
 		04D91B1C283B5CC9000CFEB2 /* medicine2.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 04D91B1B283B5CC9000CFEB2 /* medicine2.mlmodel */; };
 		04D91B1E283B8972000CFEB2 /* PillDetectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D91B1D283B8972000CFEB2 /* PillDetectViewController.swift */; };
@@ -62,6 +66,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04137B622840A7F600BAD118 /* ForgotViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotViewController.swift; sourceTree = "<group>"; };
+		04137B642840AB5300BAD118 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
 		0439BC0D283CB5AC008F4A6C /* ChatbotViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatbotViewController.swift; sourceTree = "<group>"; };
 		044EFD24283CDE0D0029E9AA /* ChatTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatTestApp.swift; sourceTree = "<group>"; };
 		044EFD26283CE0D00029E9AA /* BotResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BotResponse.swift; sourceTree = "<group>"; };
@@ -87,13 +93,15 @@
 		04A1675927D8F97E00FE1324 /* Media */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Media; sourceTree = "<group>"; };
 		04A1675E27D8FA5700FE1324 /* Designs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Designs.swift; sourceTree = "<group>"; };
 		04A1676027D8FA6300FE1324 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		04A789DA27DA3E9600E4F237 /* HomeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewController.swift; sourceTree = "<group>"; };
 		04A789DF27DA587400E4F237 /* RoundedCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedCellView.swift; sourceTree = "<group>"; };
 		04A789E127DA5F3B00E4F237 /* PillsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PillsTableViewController.swift; sourceTree = "<group>"; };
 		04A789E327DA5F7000E4F237 /* AddPillsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPillsViewController.swift; sourceTree = "<group>"; };
 		04A789EA27DA6F0000E4F237 /* PillsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PillsTableViewCell.swift; sourceTree = "<group>"; };
 		04A789F027DA728C00E4F237 /* Medication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Medication.swift; sourceTree = "<group>"; };
 		04A789F227DA765500E4F237 /* MedicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicationController.swift; sourceTree = "<group>"; };
+		04B40503283E4866006E74C0 /* ShapeTypeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeTypeViewController.swift; sourceTree = "<group>"; };
+		04B40507283E7155006E74C0 /* HealthcareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthcareViewController.swift; sourceTree = "<group>"; };
+		04B40509283E80DA006E74C0 /* pill-reminder-8251b-7769325db1a4.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "pill-reminder-8251b-7769325db1a4.json"; sourceTree = "<group>"; };
 		04BDF23E2836A18D00038A71 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
 		04D91B1B283B5CC9000CFEB2 /* medicine2.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = medicine2.mlmodel; sourceTree = "<group>"; };
 		04D91B1D283B8972000CFEB2 /* PillDetectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PillDetectViewController.swift; sourceTree = "<group>"; };
@@ -143,6 +151,8 @@
 				0439BC0D283CB5AC008F4A6C /* ChatbotViewController.swift */,
 				044EFD24283CDE0D0029E9AA /* ChatTestApp.swift */,
 				044EFD26283CE0D00029E9AA /* BotResponse.swift */,
+				04B40507283E7155006E74C0 /* HealthcareViewController.swift */,
+				04B40509283E80DA006E74C0 /* pill-reminder-8251b-7769325db1a4.json */,
 			);
 			path = Chatbot;
 			sourceTree = "<group>";
@@ -211,10 +221,10 @@
 				04A1675327D8F94600FE1324 /* SignUpViewController.swift */,
 				04A1675527D8F95500FE1324 /* LoginViewController.swift */,
 				04A1675727D8F95E00FE1324 /* HomeViewController.swift */,
-				04A789DA27DA3E9600E4F237 /* HomeTableViewController.swift */,
 				04A789E127DA5F3B00E4F237 /* PillsTableViewController.swift */,
 				04A789E327DA5F7000E4F237 /* AddPillsViewController.swift */,
 				04BDF23E2836A18D00038A71 /* NotificationController.swift */,
+				04137B622840A7F600BAD118 /* ForgotViewController.swift */,
 				04A789DE27DA583E00E4F237 /* Custom View */,
 				04A789E527DA6E1D00E4F237 /* Cell */,
 				044EFD23283CDD870029E9AA /* Chatbot */,
@@ -227,6 +237,7 @@
 			children = (
 				04A1675E27D8FA5700FE1324 /* Designs.swift */,
 				04A1676027D8FA6300FE1324 /* Constants.swift */,
+				04137B642840AB5300BAD118 /* Service.swift */,
 			);
 			path = Assistant;
 			sourceTree = "<group>";
@@ -275,6 +286,7 @@
 				04D91B1B283B5CC9000CFEB2 /* medicine2.mlmodel */,
 				04D91B1D283B8972000CFEB2 /* PillDetectViewController.swift */,
 				04D91B21283BA0CD000CFEB2 /* CGImagePropertyOrientation+UIImageOrientation.swift */,
+				04B40503283E4866006E74C0 /* ShapeTypeViewController.swift */,
 			);
 			name = "Object detection";
 			path = "Pill-Reminder";
@@ -416,6 +428,7 @@
 				04A1675A27D8F97F00FE1324 /* Media in Resources */,
 				04A1675127D8F78000FE1324 /* Main.storyboard in Resources */,
 				04A1674F27D8F45B00FE1324 /* GoogleService-Info.plist in Resources */,
+				04B4050A283E80DA006E74C0 /* pill-reminder-8251b-7769325db1a4.json in Resources */,
 				04A1672827D8F2CC00FE1324 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -547,17 +560,20 @@
 				04A789E227DA5F3B00E4F237 /* PillsTableViewController.swift in Sources */,
 				04A1675627D8F95500FE1324 /* LoginViewController.swift in Sources */,
 				04D91B1C283B5CC9000CFEB2 /* medicine2.mlmodel in Sources */,
-				04A789DB27DA3E9600E4F237 /* HomeTableViewController.swift in Sources */,
 				044EFD25283CDE0D0029E9AA /* ChatTestApp.swift in Sources */,
 				04A1672627D8F2C900FE1324 /* Pill_Reminder.xcdatamodeld in Sources */,
+				04B40508283E7155006E74C0 /* HealthcareViewController.swift in Sources */,
 				04D91B1E283B8972000CFEB2 /* PillDetectViewController.swift in Sources */,
+				04B40504283E4866006E74C0 /* ShapeTypeViewController.swift in Sources */,
 				044EFD27283CE0D00029E9AA /* BotResponse.swift in Sources */,
 				04A1672027D8F2C900FE1324 /* ViewController.swift in Sources */,
+				04137B652840AB5300BAD118 /* Service.swift in Sources */,
 				04D91B22283BA0CD000CFEB2 /* CGImagePropertyOrientation+UIImageOrientation.swift in Sources */,
 				04BDF23F2836A18D00038A71 /* NotificationController.swift in Sources */,
 				0439BC0E283CB5AC008F4A6C /* ChatbotViewController.swift in Sources */,
 				04A1671C27D8F2C900FE1324 /* AppDelegate.swift in Sources */,
 				04A1671E27D8F2C900FE1324 /* SceneDelegate.swift in Sources */,
+				04137B632840A7F600BAD118 /* ForgotViewController.swift in Sources */,
 				04A789F127DA728C00E4F237 /* Medication.swift in Sources */,
 				04A1675F27D8FA5700FE1324 /* Designs.swift in Sources */,
 				04A789EB27DA6F0000E4F237 /* PillsTableViewCell.swift in Sources */,
@@ -739,6 +755,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 23Q5JFHPUF;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Pill-Reminder/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -768,6 +785,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 23Q5JFHPUF;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Pill-Reminder/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;

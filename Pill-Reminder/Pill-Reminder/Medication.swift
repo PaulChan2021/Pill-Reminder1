@@ -15,13 +15,13 @@ struct Medication: Equatable, Codable {
     var times: [Date]
     
     
-    /// Returns a unique ID for low dosage notifications
+    //Returns for low dosage notifications
     var lowDoseId: String {
         return "\(name)\(dosage)\(quantity)"
     }
     
     
-    /// Returns a unique ID for daily dosage notifications
+    //Returns for daily dosage notifications
     var timesId: [String] {
         var stringArray = [String]()
         for time in times {
@@ -33,7 +33,7 @@ struct Medication: Equatable, Codable {
     }
 }
 
-/// Enumeration describing the units for the medicaiton
+//describing the units for the medicaiton
 enum MedicationUnit: String, Codable {
     case mg = "miligrams"
     case U = "units"

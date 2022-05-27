@@ -3,4 +3,114 @@
    uuid = "E162471D-ADDF-45AA-8DF3-F16D2DA9F2A4"
    type = "0"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "86261D62-C3D7-46B7-A32B-3A810E761CCA"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pill-Reminder/PillDetectViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "PillDetectViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "86261D62-C3D7-46B7-A32B-3A810E761CCA - f82b29ba1d7403ba"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Pill_Reminder.PillDetectViewController.imageview.getter : Swift.Optional&lt;__C.UIImageView&gt;"
+                  moduleName = "Pill-Reminder"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mac/Desktop/Pill-Reminder1/Pill-Reminder/Pill-Reminder/Pill-Reminder/PillDetectViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "86261D62-C3D7-46B7-A32B-3A810E761CCA - 59414dcf7c322fc6"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Pill_Reminder.PillDetectViewController.imageview.setter : Swift.Optional&lt;__C.UIImageView&gt;"
+                  moduleName = "Pill-Reminder"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mac/Desktop/Pill-Reminder1/Pill-Reminder/Pill-Reminder/Pill-Reminder/PillDetectViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "108">
+               </Location>
+               <Location
+                  uuid = "86261D62-C3D7-46B7-A32B-3A810E761CCA - cf06ba42902066b9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Pill_Reminder.PillDetectViewController.imageview.modify : Swift.Optional&lt;__C.UIImageView&gt;"
+                  moduleName = "Pill-Reminder"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mac/Desktop/Pill-Reminder1/Pill-Reminder/Pill-Reminder/Pill-Reminder/PillDetectViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "86261D62-C3D7-46B7-A32B-3A810E761CCA - 79f6ec4978857c9e"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Pill_Reminder.PillDetectViewController.imageview.modify : Swift.Optional&lt;__C.UIImageView&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "Pill-Reminder"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mac/Desktop/Pill-Reminder1/Pill-Reminder/Pill-Reminder/Pill-Reminder/PillDetectViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  uuid = "86261D62-C3D7-46B7-A32B-3A810E761CCA - 4c3db53cc1ffa997"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Pill_Reminder.PillDetectViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; Pill_Reminder.PillDetectViewController"
+                  moduleName = "Pill-Reminder"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mac/Desktop/Pill-Reminder1/Pill-Reminder/Pill-Reminder/Pill-Reminder/PillDetectViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "100">
+               </Location>
+               <Location
+                  uuid = "86261D62-C3D7-46B7-A32B-3A810E761CCA - 3c67d4b34c11fce1"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Pill_Reminder.PillDetectViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Pill_Reminder.PillDetectViewController&gt;"
+                  moduleName = "Pill-Reminder"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mac/Desktop/Pill-Reminder1/Pill-Reminder/Pill-Reminder/Pill-Reminder/PillDetectViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "76">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>

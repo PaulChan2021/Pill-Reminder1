@@ -28,22 +28,14 @@ class MedicationController {
     
     // --- --- --- --- --- --- --- --- --- --- --- --- --- --- ---
     // MARK: - CRUD methods
-    /// Function to create a new medication
-    /// - Parameters:
-    ///   - name: The name of the medication
-    ///   - dosage: The strength of the medication
-    ///   - units: The units for the medication
-    ///   - schedule: When the medication should be taken
+
     func createMedication(with name: String, quantity: UInt32, dosage: Int, units: MedicationUnit, times: [Date]) {
         let newMedication = Medication(name: name, dosage: dosage, units: units, quantity: quantity, times: times)
         medications.append(newMedication)
         saveToPersistentStore()
     }
     
-    /// Function to update the medication count
-    /// - Parameters:
-    ///   - medication: The medication which will be changed
-    ///   - count: The new count for the medication
+
     func update(_ medication: Medication, with count: UInt32, dosage: Int, times: [Date]) {
         guard let index = medications.firstIndex(of: medication) else { return }
         medications[index].quantity = UInt32(count)
@@ -52,8 +44,8 @@ class MedicationController {
         saveToPersistentStore()
     }
     
-    /// Function to delete the passed in medication from the Array
-    /// - Parameter medication: The medication to be deleted
+    // Function to delete medication
+
     func deleteMedication(_ medication: Medication) {
         guard let index = medications.firstIndex(of: medication) else { return }
         medications.remove(at: index)
@@ -68,7 +60,7 @@ class MedicationController {
         return documentsDirectory.appendingPathComponent("Medications.plist")
     }()
     
-    /// save medication objects
+    // save medication objects
     private func saveToPersistentStore() {
         let encoder = PropertyListEncoder()
         guard let fileURL = persistentFileURL else { return }

@@ -14,6 +14,8 @@ target 'Pill-Reminder' do
         pod 'Kommunicate'
         pod 'ApiAI'
 	pod 'MessageKit'
+
+
   target 'Pill-ReminderTests' do
     inherit! :search_paths
     # Pods for testing

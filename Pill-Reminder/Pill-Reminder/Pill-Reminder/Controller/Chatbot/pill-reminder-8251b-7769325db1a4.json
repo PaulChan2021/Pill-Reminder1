@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "pill-reminder-8251b",
+  "private_key_id": "7769325db1a44c9eadd877b6c9ebb163e0f2b569",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCfeP6GeC8ADosO\nVb7mRQqHyEs7KIvbmkHdICKz78pv2Z4I5obYtMOu5MLGZK5kFLt2msmKIRJ6lVmJ\nCRW682VNxLg7Nvc0Ej3LsqWkIhFoAupxPBqm6NuWCzsscWz5IF7LefW7WqpEX45D\n8a/zg5AT7QeLqJoJQtGEyxtFiFCRroUmZE3fSsDXMPfygiqVqUAk3g1XuTB3XePY\n1NLCVXWHq2wps6qQSa85JGk4zf86oM+jn2GKqnweQeyWzVHzZByoFAQIXAdo15oF\nuYNxOczxpR4VtLyME7QD5XVjSdY2xtjFGt4hihvd5wSnbcDUe+IUi/jryLdjtGZj\n6Js3zt1zAgMBAAECggEAK+ZJ4siI37IhM4QFNiyBVpmbpCBoR76yLOYgx3nWN24n\no/mZ22P/jlCpEaY7n49Zf6/ilSS/ioE8kY2vrrQ8CemCccKS0IHJAx8dnA5IzmIn\nGZ7bE2F8uVREKNrcjcQMdGURcU7nGkVXy3pn3lg0PFf+wMJcDPqY5L5otn5s930s\nypivHQR35YOpKRh6FDapZQxC5G8/Czszo3sNjNfQDvKL3U3y3dn8l3V5dffCtuZc\nRaJE5QVPyC0a42tXnAg1ggd0VjwBlnoTpybszEozzRy3xnabS5SuCWiWoyA7H1Ob\nadTXoWEWe9GFQMdGuniwsy36ROnnW6d/oLboFusjKQKBgQDbR5Xl5KFfvPfsER7J\n/XBZm2QZJgl5Ovbmwic/AMbf0QBRTaD/x2yTe5OkOvBLlx3wd5sAU6/zNIjPduhG\nOwT9+/FWm+h+ZoDyv6CFj5Zm4KUgesiIQQAXVtLsupqvTZzk2V6VQ7rM4vDnJ4zU\n4WyP4j/2s2lOGHKiJyYfZi55TQKBgQC6LYLK1IoQPAPo64K/q91hmJCsOiuED3Wb\nJ4ace/4wleUzd5GJXsg27AlXnBDq5iVbnhFexR2vnbk9lWmFtJmA635wNnt0p2oT\n2giIOtmlOJ//YFdiTvcJ+sgXy+fHxhccwM6yUpjAEz2A7IXtyJVihEbLa5wnh7GX\n2SraaUVRvwKBgH8+hR+IkpRJxdw4+xLffKii4W0ug2TT8J5rn/aRbtZGI9cKIxkK\nEllq5nvwr6xNntQBs/J2na2VmKY7LAJFEVqJLrzBcCKZPM6goHegoPhF98xnM6LN\nhU4F1hQFHOoJMbgi4x3e1bE7J+wbKUAHJ8Y+1jtEVSE6UpsB+L9TvjgpAoGACHuO\nXAN3DupNG02vtV/1RD8ZSF+WH/w8VYdlgLe9iyUpPkESZnnlEWuLuWwo8SrvRM9c\n5z5/7cJ38DBgkHD8FX2lUyOIWHZQRPtILDzSMc70q0QOdzI120SL3VmzA80ovGyk\nfkd5Ijc+NCOSrpTXCZgRSa9re/mYw9xnMXBeci0CgYAywQMZfgxozD1T/1TrHhQ1\nzDHrJt8koFDSOPOGrYqgOBVd/Teauo5l45ul2QZajvx0+FSE07uigSTp3LGqAxni\n68+37fxnhVw/pj2ngpjIdYswlqcPIdFUyxGl4gMjJfXgE6xTQuJpC6feeDbvBdHQ\nT2YjWRYd31vi50HAhJ0p/w==\n-----END PRIVATE KEY-----\n",
+  "client_email": "dialogflow-875@pill-reminder-8251b.iam.gserviceaccount.com",
+  "client_id": "100481511250357965808",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/dialogflow-875%40pill-reminder-8251b.iam.gserviceaccount.com"
+}

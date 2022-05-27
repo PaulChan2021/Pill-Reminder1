@@ -19,8 +19,8 @@ class NotificationController {
         return formatter
     }()
     
-    /// grant user permission send notifications
-    ///
+    // grant user permission for sending notifications
+    //
     func notificationRequest(completion: @escaping () -> Void) {
         center.getNotificationSettings { [weak self] settings in
             guard let self = self else { return }
@@ -40,7 +40,7 @@ class NotificationController {
     }
     
     
-    ///  set up timed notifications
+    //  set up time notifications
 
     func setupTimeNotifications(medicationController: MedicationController) {
         for medication in medicationController.medications {
@@ -59,11 +59,11 @@ class NotificationController {
         }
     }
     
-    /// notification every morning at 7am
+    // notification every morning at
 
     func setupLowDosageNotifications(medicationController: MedicationController) {
         var components = DateComponents()
-        components.hour = 8
+        components.hour = 7
         components.minute = 0
         for medication in medicationController.medications {
             if medication.quantity <= 10 {
